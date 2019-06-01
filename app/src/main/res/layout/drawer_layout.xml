@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#424242"
+    android:clickable="true"
+    android:minWidth="270dp"
+    android:focusable="true"
+    android:orientation="vertical"
+    tools:ignore="Overdraw">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:paddingBottom="18dp"
+        android:paddingEnd="15dp"
+        android:paddingStart="15dp"
+        android:typeface="monospace"
+        android:paddingTop="18dp"
+        android:text="Hi, Username"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimaryDark" />
+
+
+    <TextView
+        android:id="@+id/profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="15dp"
+        android:typeface="monospace"
+        android:textColor="#cdcdcd"
+        android:gravity="center_vertical"
+        android:padding="15dp"
+        android:text="Profile" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/stats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="15dp"
+        android:typeface="monospace"
+        android:textColor="#cdcdcd"
+        android:gravity="center_vertical"
+        android:padding="15dp"
+        android:text="Stats" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/rankers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="15dp"
+        android:typeface="monospace"
+        android:textColor="#cdcdcd"
+        android:gravity="center_vertical"
+        android:padding="15dp"
+        android:text="Rankers" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="15dp"
+        android:typeface="monospace"
+        android:textColor="#cdcdcd"
+        android:gravity="center_vertical"
+        android:padding="15dp"
+        android:text="Settings" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/share"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="15dp"
+        android:typeface="monospace"
+        android:textColor="#cdcdcd"
+        android:gravity="center_vertical"
+        android:padding="15dp"
+        android:text="Share" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/channel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="15dp"
+        android:typeface="monospace"
+        android:textColor="#cdcdcd"
+        android:gravity="center_vertical"
+        android:padding="15dp"
+        android:text="Our Channel" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="15dp"
+        android:typeface="monospace"
+        android:textColor="#cdcdcd"
+        android:gravity="center_vertical"
+        android:padding="15dp"
+        android:text="About us" />
+
+    </LinearLayout>
+
+
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/lll"
+        android:scaleType="fitXY"
+        android:layout_margin="5dp"
+        android:adjustViewBounds="true"
+        android:layout_centerHorizontal="true"
+        />
+
+
+</RelativeLayout>
